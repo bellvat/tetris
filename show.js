@@ -13,3 +13,12 @@ function createGrid(){
   }
 }
 createGrid()
+
+let square = document.querySelector('.square')
+let mid = document.createElement('div')
+let inner = document.createElement('div')
+
+mid.classList.add('mid')
+inner.classList.add('inner')
+square.appendChild(mid)
+mid.appendChild(inner)
